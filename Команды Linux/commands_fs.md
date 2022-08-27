@@ -77,3 +77,7 @@ $ cp file_name.txt /home/username/dir_name_2/new_file_name.txt
 ```
 
 **clear** — очистить всю выведенную в консоль информацию, начать «с чистого листа».
+
+**csp** - копирует файлы на сервер по протоколу SSH.
+```bash
+$ scp dump.json praktikum@84.201.161.196:/home/имя_пользователя/.../папка_проекта_с_manage.py/ 
